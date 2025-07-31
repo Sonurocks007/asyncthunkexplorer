@@ -26,7 +26,7 @@ function Content() {
   return (
     <>  
         <h1 className="text-4xl text-center flex justify-center items-center bg-gray-400 text-white h-20">My Products</h1>
-        <div className="max-w-full max-h-screen p-4 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4 bg-gray-100 ">
+        <div className="max-w-full max-h-screen p-4 grid grid-cols-2 sm:grid-cols-3  md:grid-cols-5 lg:grid-cols-5 xl:grid-cols-6 gap-4 bg-gray-100 ">
     
   {contents.map((content) => (
     <div
